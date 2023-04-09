@@ -1,0 +1,29 @@
+{
+    "name": "sicet7/php-psr-17-plugin",
+    "description": "PSR-17 plugin for the plugin container",
+    "type": "library",
+    "require": {
+        "php": ">=8.2",
+        "nyholm/psr7": "^1.6",
+        "sicet7/php-plugin-container": "dev-master"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Sicet7\\PSR17\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Martin René Sørensen",
+            "email": "git@sicet7.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "git@github.com:sicet7/php-plugin-container.git"
+        }
+    ]
+}
